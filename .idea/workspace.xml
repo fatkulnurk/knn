@@ -1,7 +1,409 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee3926ac-ddeb-4c7e-97cb-a5d99006775d" name="Default Changelist" comment="" />
+    <list default="true" id="ee3926ac-ddeb-4c7e-97cb-a5d99006775d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/knn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dataset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/datatest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/bulma.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/css/bulma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/css/bulma.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/css/bulma.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/base/_all.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/base/generic.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/base/helpers.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/base/minireset.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/_all.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/breadcrumb.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/card.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/dropdown.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/level.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/media.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/menu.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/message.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/modal.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/navbar.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/pagination.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/panel.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/components/tabs.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/_all.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/box.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/button.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/container.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/content.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/form.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/icon.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/image.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/notification.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/other.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/progress.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/table.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/tag.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/elements/title.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/grid/_all.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/grid/columns.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/grid/tiles.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/layout/_all.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/layout/footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/layout/hero.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/layout/section.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/utilities/_all.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/utilities/animations.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/utilities/controls.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/utilities/derived-variables.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/utilities/functions.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/utilities/initial-variables.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bulma-0.7.1/sass/utilities/mixins.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasetruspini.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datatesruspini.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/code-coverage.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/handle_brew_pkg.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-predict" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-predict-osx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-predict.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-scale" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-scale-osx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-scale.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-train-osx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/libsvm/svm-train.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/bin/prepare_osx_env.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/data/glass.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/data/iris.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/data/wine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/assets/php-ml-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/association/apriori.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/classification/k-nearest-neighbors.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/classification/naive-bayes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/classification/svc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/clustering/dbscan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/clustering/k-means.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/cross-validation/random-split.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/cross-validation/stratified-random-split.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/datasets/array-dataset.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/datasets/csv-dataset.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/datasets/demo/glass.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/datasets/demo/iris.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/datasets/demo/wine.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/datasets/files-dataset.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/feature-extraction/tf-idf-transformer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/feature-extraction/token-count-vectorizer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/feature-selection/selectkbest.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/feature-selection/variance-threshold.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/metric/accuracy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/metric/classification-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/metric/confusion-matrix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/model-manager/persistency.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/neural-network/multilayer-perceptron-classifier.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/preprocessing/imputation-missing-values.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/preprocessing/normalization.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/regression/least-squares.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/regression/svr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/machine-learning/workflow/pipeline.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/math/distance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/math/matrix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/math/set.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/docs/math/statistic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/easy-coding-standard.neon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/mkdocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/phpstan.neon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Association/Apriori.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Association/Associator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/Classifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/DecisionTree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/DecisionTree/DecisionTreeLeaf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/Ensemble/AdaBoost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/Ensemble/Bagging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/Ensemble/RandomForest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/KNearestNeighbors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/Linear/Adaline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/Linear/DecisionStump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/Linear/LogisticRegression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/Linear/Perceptron.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/MLPClassifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/NaiveBayes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/SVC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Classification/WeightedClassifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Clustering/Clusterer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Clustering/DBSCAN.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Clustering/FuzzyCMeans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Clustering/KMeans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Clustering/KMeans/Cluster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Clustering/KMeans/Point.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Clustering/KMeans/Space.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/CrossValidation/RandomSplit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/CrossValidation/Split.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/CrossValidation/StratifiedRandomSplit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Dataset/ArrayDataset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Dataset/CsvDataset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Dataset/Dataset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Dataset/Demo/GlassDataset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Dataset/Demo/IrisDataset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Dataset/Demo/WineDataset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Dataset/FilesDataset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/DimensionReduction/EigenTransformerBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/DimensionReduction/KernelPCA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/DimensionReduction/LDA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/DimensionReduction/PCA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Estimator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Exception/DatasetException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Exception/FileException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Exception/InvalidOperationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Exception/LibsvmCommandException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Exception/MatrixException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Exception/NormalizerException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Exception/SerializeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureExtraction/StopWords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureExtraction/StopWords/English.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureExtraction/StopWords/French.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureExtraction/StopWords/Polish.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureExtraction/TfIdfTransformer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureExtraction/TokenCountVectorizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureSelection/ScoringFunction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureSelection/ScoringFunction/ANOVAFValue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureSelection/ScoringFunction/UnivariateLinearRegression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureSelection/SelectKBest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/FeatureSelection/VarianceThreshold.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Helper/OneVsRest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Helper/Optimizer/ConjugateGradient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Helper/Optimizer/GD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Helper/Optimizer/Optimizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Helper/Optimizer/StochasticGD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Helper/Predictable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Helper/Trainable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/IncrementalEstimator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Comparison.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Distance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Distance/Chebyshev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Distance/Euclidean.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Distance/Manhattan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Distance/Minkowski.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Kernel/RBF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/LinearAlgebra/EigenvalueDecomposition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/LinearAlgebra/LUDecomposition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Matrix.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Statistic/ANOVA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Statistic/Correlation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Statistic/Covariance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Statistic/Gaussian.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Statistic/Mean.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Statistic/StandardDeviation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Math/Statistic/Variance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Metric/Accuracy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Metric/ClassificationReport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Metric/ConfusionMatrix.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/ModelManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/ActivationFunction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/ActivationFunction/BinaryStep.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/ActivationFunction/Gaussian.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/ActivationFunction/HyperbolicTangent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/ActivationFunction/PReLU.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/ActivationFunction/Sigmoid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/ActivationFunction/ThresholdedReLU.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Layer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Network.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Network/LayeredNetwork.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Network/MultilayerPerceptron.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Node.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Node/Bias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Node/Input.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Node/Neuron.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Node/Neuron/Synapse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Training.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Training/Backpropagation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/NeuralNetwork/Training/Backpropagation/Sigma.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Pipeline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Preprocessing/Imputer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Preprocessing/Imputer/Strategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Preprocessing/Imputer/Strategy/MeanStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Preprocessing/Imputer/Strategy/MedianStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Preprocessing/Imputer/Strategy/MostFrequentStrategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Preprocessing/Normalizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Preprocessing/Preprocessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Regression/LeastSquares.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Regression/Regression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Regression/SVR.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/SupportVectorMachine/DataTransformer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/SupportVectorMachine/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/SupportVectorMachine/SupportVectorMachine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/SupportVectorMachine/Type.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Tokenization/Tokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Tokenization/WhitespaceTokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Tokenization/WordTokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/src/Transformer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Association/AprioriTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/DecisionTree/DecisionTreeLeafTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/DecisionTreeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/Ensemble/AdaBoostTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/Ensemble/BaggingTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/Ensemble/RandomForestTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/KNearestNeighborsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/Linear/AdalineTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/Linear/DecisionStumpTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/Linear/LogisticRegressionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/Linear/PerceptronTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/MLPClassifierTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/NaiveBayesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Classification/SVCTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Clustering/DBSCANTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Clustering/FuzzyCMeansTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Clustering/KMeansTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/CrossValidation/RandomSplitTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/CrossValidation/StratifiedRandomSplitTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/ArrayDatasetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/CsvDatasetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Demo/GlassDatasetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Demo/IrisDatasetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Demo/WineDatasetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/FilesDatasetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/005.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/006.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/007.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/business/010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/005.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/006.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/007.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/entertainment/010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/005.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/006.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/007.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/politics/010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/005.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/006.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/007.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/sport/010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/005.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/006.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/007.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/bbc/tech/010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Dataset/Resources/longdataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/DimensionReduction/KernelPCATest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/DimensionReduction/LDATest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/DimensionReduction/PCATest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/FeatureExtraction/StopWordsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/FeatureExtraction/TfIdfTransformerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/FeatureExtraction/TokenCountVectorizerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/FeatureSelection/ScoringFunction/ANOVAFValueTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/FeatureSelection/ScoringFunction/UnivariateLinearRegressionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/FeatureSelection/SelectKBestTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/FeatureSelection/VarianceThresholdTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Helper/Optimizer/ConjugateGradientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Helper/Optimizer/GDTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Helper/Optimizer/StochasticGDTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/ComparisonTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Distance/ChebyshevTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Distance/EuclideanTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Distance/ManhattanTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Distance/MinkowskiTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Kernel/RBFTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/LinearAlgebra/EigenvalueDecompositionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/MatrixTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/ProductTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/SetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Statistic/ANOVATest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Statistic/CorrelationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Statistic/CovarianceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Statistic/GaussianTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Statistic/MeanTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Statistic/StandardDeviationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Math/Statistic/VarianceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Metric/AccuracyTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Metric/ClassificationReportTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Metric/ConfusionMatrixTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/ModelManagerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/ActivationFunction/BinaryStepTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/ActivationFunction/GaussianTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/ActivationFunction/HyperboliTangentTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/ActivationFunction/PReLUTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/ActivationFunction/SigmoidTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/ActivationFunction/ThresholdedReLUTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/LayerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/Network/LayeredNetworkTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/Network/MultilayerPerceptronTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/Node/BiasTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/Node/InputTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/Node/Neuron/SynapseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/NeuralNetwork/Node/NeuronTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/PipelineTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Preprocessing/ImputerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Preprocessing/NormalizerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Regression/LeastSquaresTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Regression/SVRTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/SupportVectorMachine/DataTransformerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/SupportVectorMachine/SupportVectorMachineTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Tokenization/WhitespaceTokenizerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/tests/Tokenization/WordTokenizerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml/var/.gitkeep" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,16 +413,31 @@
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-235215647">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,8 +502,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="2">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -99,6 +516,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -136,6 +556,7 @@
     <option name="width" value="798" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -198,16 +619,17 @@
       <workItem from="1538360704556" duration="496000" />
       <workItem from="1538364801853" duration="647000" />
       <workItem from="1538462235280" duration="396000" />
+      <workItem from="1538658253100" duration="309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8578000" />
+    <option name="totallyTimeSpent" value="8887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -220,12 +642,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36497545" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="2">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
